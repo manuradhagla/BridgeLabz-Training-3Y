@@ -5,7 +5,7 @@ public class KmToMilesInput {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter distance in kilometers: ");
         double km = input.nextDouble();
-        double miles = km * 1.6; // as per hint
+        double miles = km * 1.6; 
         System.out.println("The total miles is " + miles + " mile for the given " + km + " km");
         input.close();
     }

@@ -9,7 +9,6 @@ public class TriangleArea {
         double heightCm = sc.nextDouble();
 
         double areaCm2 = 0.5 * baseCm * heightCm;
-        // 1 inch = 2.54 cm, so 1 cm = 1/2.54 inch; area in sq in: cm^2 / (2.54^2)
         double areaIn2 = areaCm2 / (2.54 * 2.54);
 
         System.out.println("The Area of the triangle in sq in is " + areaIn2 +

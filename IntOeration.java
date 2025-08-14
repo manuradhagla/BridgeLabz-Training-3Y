@@ -9,8 +9,6 @@ public class IntOeration {
         int b = sc.nextInt();
         System.out.print("Enter c: ");
         int c = sc.nextInt();
-
-        // Operator precedence: * / % before + -
         int op1 = a + b * c;
         int op2 = a * b + c;
         int op3 = c + a / b;
