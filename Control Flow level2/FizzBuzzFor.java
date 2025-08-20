@@ -4,11 +4,6 @@ public class FizzBuzzFor {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
-
-        if (number <= 0) {
-            System.out.println("Invalid input.");
-            return;
-        }
         for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0)
                 System.out.println("FizzBuzz");
@@ -19,6 +14,7 @@ public class FizzBuzzFor {
             else
                 System.out.println(i);
         }
+        sc.close();
        
     }
 }
