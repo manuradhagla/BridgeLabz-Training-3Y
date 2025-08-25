@@ -25,6 +25,7 @@ public class FactorFinder {
         for (int i = 0; i < index; i++) {
             System.out.print(factors[i] + " ");
         }
+        sc.close();
     }
 }
 
