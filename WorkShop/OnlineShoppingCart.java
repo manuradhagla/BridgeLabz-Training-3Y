@@ -19,8 +19,8 @@ public class OnlineShoppingCart {
         if(total<2000){
             total+=100;
         }
-        System.out.println("\n---- Shopping Cart Payable Amount ----");
-        System.out.println("Final payable amount: Rs."+total);
+        System.out.println("---- Shopping Cart Payable Amount ----");
+        System.out.println("Final payable amount: Rs.%.2f\n"+total);
         sc.close();
     }
     

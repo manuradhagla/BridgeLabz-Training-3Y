@@ -23,7 +23,7 @@ public class LibraryBookTracker {
             }
         }
         double avg= (double)total/7;
-        System.out.println("\n--- Library report ---");
+        System.out.println("--- Library report ---");
         System.out.println("Total book borrowed in week: "+total);
         System.out.println("Day with highest borrowing: Day "+dayOMax+ " ("+maxBorrow+" books");
         if(holiday){

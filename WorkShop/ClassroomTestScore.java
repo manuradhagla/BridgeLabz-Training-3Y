@@ -35,7 +35,7 @@ public class ClassroomTestScore {
                 anyFail = true;
             }
         }
-        System.out.println("\n--- Class Report ---");
+        System.out.println("--- Class Report ---");
         System.out.printf("Class Average: %.2f\n", average);
         System.out.println("Highest Marks: " + highest);
         System.out.println("Lowest Marks: " + lowest);

@@ -27,7 +27,7 @@ public class FitnessCenterAttendence {
             }
         }
         double avg= (double)total/10;
-        System.out.println("\n---- Fitness Center Attendance Tracker ----");
+        System.out.println("---- Fitness Center Attendance Tracker ----");
         System.out.println("Total visitors in 10 days: "+total);
         System.out.println("Day with maximum attendance : day "+dayOfMax+" ("+maxattendance+ "visitors )");
         System.out.println("Day with minimum attendance : day "+dayOfMin+" ("+minAttendance+ "visitors )");
